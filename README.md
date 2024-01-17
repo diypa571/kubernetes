@@ -1,4 +1,4 @@
-# kubernetes
+# Kubernetes
 Komma igång med Kubernetes
 Lista med kommandon för Ubuntu, det för  master node
 
