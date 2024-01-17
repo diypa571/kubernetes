@@ -1,5 +1,12 @@
 # Kubernetes
 Komma igång med Kubernetes
+Köra bash skriptet direkt från URL:
+curl -sSL https://raw.githubusercontent.com/diypa571/kubernetes/main/kubernetes.sh | bash -s master
+curl -sSL https://raw.githubusercontent.com/diypa571/kubernetes/main/kubernetes.sh | bash -s worker
+
+
+
+
 Master node
 Lista med kommandon för Ubuntu, det för  master node
 
