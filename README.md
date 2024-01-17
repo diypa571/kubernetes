@@ -50,8 +50,8 @@ Om anslutningen ej lyckas..
 En får kopiera konfigurationsfilerna manuelt
 root@master: # mkdir -p $HOME/.kube
 root@master: # sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
-root@master: # sudo chown $(id -u):$(id g) $HOME/.kube/config
- 
+root@master: # sudo chown $(id -u):$(id -g) $HOME/.kube/config
+ root@master: # kubectl get nodes
 
 
 mkdir 
